@@ -19,7 +19,7 @@ export default function CameraPicFlowers2({navigation}) {
         style={styles.image}
         source={require('../../assets/images/camera-pic1.jpg')}
       />
-      <Icon style={styles.plus} name="times" size={40} color="#000" />
+
       <View style={styles.block}>
         <Icon style={styles.icon} name="angle-left" size={40} color="#000" />
 
@@ -42,12 +42,7 @@ const styles = StyleSheet.create({
     width: screen,
     height: 480,
   },
-  plus: {
-    position: 'absolute',
-    left: 40,
-    top: 20,
-    zIndex: 12,
-  },
+
   block: {
     flex: 2,
     flexDirection: 'row',

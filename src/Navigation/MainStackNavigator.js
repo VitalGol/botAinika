@@ -12,6 +12,7 @@ import CameraPicFlowers2 from '../screens/CameraPicFlowers2';
 import CameraPicLeaves from '../screens/CameraPicLeaves';
 import CameraPicLeaves1 from '../screens/CameraPicLeaves1';
 import CameraPicLeaves2 from '../screens/CameraPicLeaves2';
+import Analising from '../screens/Analising';
 import Report from '../screens/Report';
 
 const Stack = createStackNavigator();
@@ -29,6 +30,7 @@ function MyStack() {
       <Stack.Screen name="CameraPicLeaves" component={CameraPicLeaves} />
       <Stack.Screen name="CameraPicLeaves1" component={CameraPicLeaves1} />
       <Stack.Screen name="CameraPicLeaves2" component={CameraPicLeaves2} />
+      <Stack.Screen name="Analising" component={Analising} />
       <Stack.Screen name="Report" component={Report} />
     </Stack.Navigator>
   );
